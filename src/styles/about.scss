@@ -1,0 +1,86 @@
+.about-section {
+  width: 80vw;
+  align-items: center;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  @include media(">=phone", "<lgphone") {
+    flex-direction: column-reverse;
+  }
+  @include media(">=lgphone", "<tablet") {
+    flex-direction: column-reverse;
+  }
+  @include media(">=tablet", "<desktop") {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .content {
+    width: 50%;
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 3rem;
+      line-height: 20px;
+      @include media(">=tablet", "<desktop") {
+        text-align: center;
+      }
+    }
+    p {
+      @include media(">=tablet", "<desktop") {
+        text-align: center;
+      }
+    }
+  }
+  .about-container {
+    margin: 5rem;
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: 100%;
+      grid-gap: 10px;
+      @include media(">=phone", "<lgphone") {
+        grid-template-columns: 1fr 1fr;
+      }
+      @include media(">=lgphone", "<tablet") {
+        grid-template-columns: 1fr 1fr;
+      }
+      @include media(">=tablet", "<desktop") {
+        grid-template-columns: 1fr 1fr;
+      }
+      .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        img {
+          height: 7rem;
+          widows: 7rem;
+        }
+      }
+    }
+  }
+  .image-wrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+  }
+}
