@@ -1,30 +1,30 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
-import sassIcon from "./images/sass.png"
-import nodeJSIcon from "./images/node-js-logo.jpeg"
-import mongoDBIcon from "./images/mongoDB.jpg"
-import gitIcon from "./images/git.png"
-import expressIcon from "./images/express.png"
-import jiraIcon from "./images/jira.png"
+import htmlIcon from "./images/html.svg";
+import cssIcon from "./images/css.svg";
+import reactIcon from "./images/react.svg";
+import jsIcon from "./images/javascript.svg";
+import designIcon from "./images/design.svg";
+import codeIcon from "./images/code.svg";
+import sassIcon from "./images/sass.png";
+import nodeJSIcon from "./images/node-js-logo.jpeg";
+import mongoDBIcon from "./images/mongoDB.jpg";
+import gitIcon from "./images/git.png";
+import expressIcon from "./images/express.png";
+import jiraIcon from "./images/jira.png";
 
 //About Icons
-import movieIcon from "./images/binge-watching.png"
-import photographyIcon from "./images/photography.png"
-import webDevIcon from "./images/website-dev.png"
-import travelIcon from "./images/travel-logo.jpg"
+import movieIcon from "./images/binge-watching.png";
+import photographyIcon from "./images/photography.png";
+import webDevIcon from "./images/website-dev.png";
+import travelIcon from "./images/travel-logo.jpg";
 
 //Project Icons
-import codingPortfolioIcon from "./images/coding-portfolio.png"
+import codingPortfolioIcon from "./images/coding-portfolio.png";
 // import travelIcon from "./images/travel-logo.jpg"
 
 // Social Icon
-import githubIcon from "./images/github.svg"
-import instagramIcon from "./images/instagram.svg"
+import githubIcon from "./images/github.svg";
+import instagramIcon from "./images/instagram.svg";
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -47,7 +47,7 @@ export default {
   //Contact Email
   contactEmail: "james.rathh@gmail.com",
   //Phone Number
-  contactCell: "312-536-3101",
+  contactCell: "312-598-2464",
 
   // End Header Details -----------------------
 
@@ -321,6 +321,6 @@ export default {
   ],
 
   // End Contact Section ---------------
-}
+};
 
 // Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
