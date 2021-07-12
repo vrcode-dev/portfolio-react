@@ -18,18 +18,11 @@ import photographyIcon from "./images/photography.png";
 import webDevIcon from "./images/website-dev.png";
 import travelIcon from "./images/travel-logo.jpg";
 
-//Project Icons
-import codingPortfolioIcon from "./images/coding-portfolio.png";
-// import travelIcon from "./images/travel-logo.jpg"
-
 // Social Icon
 import githubIcon from "./images/github.svg";
 import instagramIcon from "./images/instagram.svg";
 
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
-  //Change The Website Template
-
   //   Header Details ---------------------
   name: "James",
   headerTagline: [
@@ -57,30 +50,28 @@ export default {
       title: "Development Portfolio",
       para: "A collection of projects I've worked on.",
 
-      imageSrc: { codingPortfolioIcon },
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://image.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg",
 
-      url: "http://localhost:8000/",
+      url: "https://www.vrcode.dev",
     },
     {
       title: "Photography Portfolio",
       para:
         "This photography portfolio showcases my photography enthusiasm to the world. It contains pieces that I consider one of my best works.", // Add Your Service Type Here
 
+      // imageSrc: "./images/2.jpg",
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-
+        "https://image.freepik.com/free-vector/ui-ux-app-development-concept_52683-48848.jpg",
       url: "http://www.vrpixs.com/",
     },
     {
       title: "Yard Waste Gone",
       para:
-        "Just a simple website I made to display an environmental project I was involved in.", // Add Your Service Type Here
-
+        "Just a simple website I made to display an environmental project I was involved in.",
+      // imageSrc: "./images/3.jpg",
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-
+        "https://image.freepik.com/free-vector/engineer-developer-with-laptop-tablet-code-cross-platform-development-cross-platform-operating-systems-software-environments-concept-bright-vibrant-violet-isolated-illustration_335657-312.jpg",
       url: "https://vrcode-dev.github.io/yardwastegone/",
     },
     {
@@ -88,39 +79,29 @@ export default {
       para: "An android application that fetches news APIs",
 
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-
+        // "./images/4.jpg",
+        "https://image.freepik.com/free-vector/app-development-illustration_52683-47931.jpg",
       url: "https://github.com/vrcode-dev/News-Gateway",
     },
     {
       title: "Stock Watch",
       para: "An android application that retrived real time stock data.",
 
+      // imageSrc: "./images/5.jpg",
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-
+        "https://image.freepik.com/free-vector/app-development-illustration_52683-47743.jpg",
       url: "https://github.com/vrcode-dev/Stock-Watch",
     },
     {
       title: "Prototype Design",
-      para: "Some mock up designs I made for a NGO that I volunteered for.", // Add Your Service Type Here
+      para: "Some mock up designs I made for a NGO that I volunteered for.",
 
+      // imageSrc: "./images/6.jpg",
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-
+        "https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg",
       url:
         "https://www.figma.com/file/INjmdKk5cLuRFSrlM8Fgth/Untitled?node-id=0%3A1",
     },
-
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
   projectsSummary: [
     {
@@ -129,8 +110,7 @@ export default {
         "This photography portfolio showcases my photography enthusiasm to the world. It contains pieces that I consider one of my best works.", // Add Your Service Type Here
 
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-
+        "https://image.freepik.com/free-vector/ui-ux-app-development-concept_52683-48848.jpg",
       url: "http://www.vrpixs.com/",
     },
     {
@@ -138,17 +118,15 @@ export default {
       para: "An android application that fetches news APIs",
 
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-
+        "https://image.freepik.com/free-vector/app-development-illustration_52683-47931.jpg",
       url: "https://github.com/vrcode-dev/News-Gateway",
     },
     {
       title: "Prototype Design",
-      para: "Some mock up designs I made for a NGO that I volunteered for.", // Add Your Service Type Here
+      para: "Some mock up designs I made for a NGO that I volunteered for.",
 
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-
+        "https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg",
       url:
         "https://www.figma.com/file/INjmdKk5cLuRFSrlM8Fgth/Untitled?node-id=0%3A1",
     },
@@ -306,14 +284,6 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "http://github.com/vrcode-dev" },
-    // {
-    //   img: codepenIcon,
-    //   url: "https://www.codepen.com/",
-    // },
-    // {
-    //   img: dribbbleIcon,
-    //   url: "https://dribbble.com/",
-    // },
     {
       img: instagramIcon,
       url: "https://www.instagram.com/vrpixs",

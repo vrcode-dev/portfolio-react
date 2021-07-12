@@ -1,17 +1,11 @@
-import React from "react"
-import img from "../../images/code.svg"
+import React from "react";
 
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
   return (
     <div
       className="card"
       style={{
-        // backgroundImage: `url(../../images/code.svg)`,
-
-        backgroundImage:
-          "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
-          imgUrl +
-          ")",
+        backgroundImage: `url(${imgUrl})`,
       }}
     >
       <div className="content">
@@ -27,7 +21,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
